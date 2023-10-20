@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Josefin+Sans:ital,wght@1,700&family=Orbitron:wght@900&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; /* Adicionado o estilo de fonte para todo o documento */
+}
+
+body {
+    background: url(../Gifs/HomeBackground.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 10vh; /* Usando uma unidade flexível em vez de pixels */
+    margin-left: 2vw; /* Usando uma unidade flexível em vez de pixels */
+    padding: 1vh 2vw; /* Usando unidades flexíveis em vez de pixels */
+    font-size: 2.5vw; /* Usando uma unidade flexível em vez de pixels */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #00ffff;
+    text-shadow: 0 0 0.5em #00ffff; /* Ajustado o efeito neon */
+}
+
+button:hover {
+    border-color: rgb(146, 28, 28);
+    color: rgb(187, 71, 71);
+    opacity: 0.5;
+}
+
+.loading-gif {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.loading-gif img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta o tamanho do GIF mantendo a proporção */
+}
+

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Josefin+Sans:ital,wght@1,700&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 2000px;
+    border: 11px solid #000;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+}
+
+header {
+    height: 100px;
+}
+
+.URL {
+    position: absolute;
+    right: 45%;
+}
+
+.URL span {
+    color: #de3b3b;
+}
+
+.recado {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 8vh;
+    width: 24vh;
+}
+
+.recado p {
+    color: rgb(0, 0, 0);
+    border: solid 1px black;
+    padding: 10px;
+}
+
+p {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.titulo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 20vh;
+}
+
+h3 {
+    font-size: 8vh;
+}
+
+.BatmanPhoto {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.BatmanPhoto img {
+    margin-top: 120%;
+    width: 80vh;
+    height: 65vh;
+}
+
+.BatmanPhoto p {
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 29vh;
+}
